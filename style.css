@@ -1,0 +1,20 @@
+*{
+  box-sizing: border-box;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  width: 610px;
+  height: 610px;
+
+
+}
+.square {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  /* cursor: url('./images/bat.png'); */
+}
+
